@@ -13,13 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu
     const textTweet = `
-Voucher shopeefood diskon 100% max 25rb + gratis ongkir 3rb ✨ ‼️ 
+ Voucher diskon 100% max 40rb! Bisa semua resto ✨
 
-Klaim di resto sebelum habis 👇👇👇
-https://spf.shopee.co.id/2LR5qye3h5
-https://spf.shopee.co.id/2LR5qye3h5
+Klaim di resto ini sebelum habis 👇👇👇
+spf.shopee.co.id/5Aj1rU73Lb
+spf.shopee.co.id/5Aj1rU73Lb
 
-t. gofood grabfood kode promo go grab shopee food sfood voucher gojek
+t. gofood grabfood shopeefood kode promo go grab shopee
 `;
 
     // 📸 Upload dua gambar
@@ -37,3 +37,4 @@ t. gofood grabfood kode promo go grab shopee food sfood voucher gojek
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
